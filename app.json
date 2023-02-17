@@ -3,7 +3,8 @@
     "name": "rn-hw-social",
     "slug": "rn-hw-social",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "platforms": ["ios", "android", "web"],
+    "orientation": "default",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
     "splash": {
@@ -14,9 +15,7 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "ios": {
       "supportsTablet": true
     },
